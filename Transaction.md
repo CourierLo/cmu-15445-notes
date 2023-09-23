@@ -1,3 +1,5 @@
+-- Written By **CourierLo**
+
 # Transaction
 
 ## 1 ACID
@@ -257,6 +259,7 @@ LOCK UPGRADE:
 - 如果不同，则要锁升级。锁升级的请求相较于其他等待锁的事务，优先级是最高的。
 
 升级规则如下：
+
 IS -> [S, X, IX, SIX]
 
 S -> [X, SIX]
